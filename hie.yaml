@@ -1,0 +1,7 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:plc-errors"
+
+    - path: "./test"
+      component: "test:plc-errors"

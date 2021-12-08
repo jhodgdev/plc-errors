@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_NAME	hasktags
+DatumType	src/PlcErrors.hs	/^  type DatumType TreasuryScript = TreasuryState$/;"	t	line:67	language:Haskell
+Epoch	src/PlcErrors.hs	/^data Epoch = Epoch$/;"	d	line:37	language:Haskell
+Epoch	src/PlcErrors.hs	/^data Epoch = Epoch$/;"	cons	data:Epoch	line:37	language:Haskell
+Eq Epoch	src/PlcErrors.hs	/^instance Eq Epoch where$/;"	i	line:43	language:Haskell
+Eq TreasuryState	src/PlcErrors.hs	/^instance Eq TreasuryState where$/;"	i	line:52	language:Haskell
+IssueRewards	src/PlcErrors.hs	/^  = IssueRewards$/;"	cons	data:TreasuryRedeemer	line:61	language:Haskell
+PlcErrors	src/PlcErrors.hs	/^module PlcErrors ($/;"	m	line:8	language:Haskell
+Plutus.V1.Ledger.Contexts.Extra	src/Plutus/V1/Ledger/Contexts/Extra.hs	/^module Plutus.V1.Ledger.Contexts.Extra ($/;"	m	line:6	language:Haskell
+RedeemerType	src/PlcErrors.hs	/^  type RedeemerType TreasuryScript = TreasuryRedeemer$/;"	t	line:68	language:Haskell
+Treasury	src/PlcErrors.hs	/^data Treasury = Treasury$/;"	d	line:74	language:Haskell
+Treasury	src/PlcErrors.hs	/^data Treasury = Treasury$/;"	cons	data:Treasury	line:74	language:Haskell
+TreasuryParams	src/PlcErrors.hs	/^data TreasuryParams = TreasuryParams$/;"	d	line:70	language:Haskell
+TreasuryParams	src/PlcErrors.hs	/^data TreasuryParams = TreasuryParams$/;"	cons	data:TreasuryParams	line:70	language:Haskell
+TreasuryRedeemer	src/PlcErrors.hs	/^data TreasuryRedeemer$/;"	d	line:60	language:Haskell
+TreasuryScript	src/PlcErrors.hs	/^data TreasuryScript$/;"	d	line:64	language:Haskell
+TreasuryState	src/PlcErrors.hs	/^data TreasuryState = TreasuryState$/;"	d	line:47	language:Haskell
+TreasuryState	src/PlcErrors.hs	/^data TreasuryState = TreasuryState$/;"	cons	data:TreasuryState	line:47	language:Haskell
+ValidatorTypes TreasuryScript	src/PlcErrors.hs	/^instance ValidatorTypes TreasuryScript where$/;"	i	line:66	language:Haskell
+WitnessTreasury	src/PlcErrors.hs	/^  | WitnessTreasury$/;"	cons	data:TreasuryRedeemer	line:62	language:Haskell
+e	src/PlcErrors.hs	/^  e == e' = epochNumber e == epochNumber e'$/;"	fi	instance:Eq Epoch	line:45	language:Haskell
+epochNumber	src/PlcErrors.hs	/^  { epochNumber :: Integer$/;"	c_a	cons:Epoch.Epoch	line:38	language:Haskell
+executive	src/PlcErrors.hs	/^  { executive :: Credential$/;"	c_a	cons:TreasuryState.TreasuryState	line:48	language:Haskell
+findDatum	src/Plutus/V1/Ledger/Contexts/Extra.hs	/^findDatum ::$/;"	ft	signature:(forall (datum :: Type) . (FromData datum) => TxOut -> TxInfo -> Maybe datum)	line:29	language:Haskell
+getOwnOutputAndDatum	src/Plutus/V1/Ledger/Contexts/Extra.hs	/^getOwnOutputAndDatum :: forall (b :: Type). FromData b => ScriptContext -> (TxOut, b)$/;"	ft	signature:(forall (b :: Type) . FromData b => ScriptContext -> (TxOut, b))	line:52	language:Haskell
+lastRewardEpoch	src/PlcErrors.hs	/^  , lastRewardEpoch :: Epoch$/;"	c_a	cons:TreasuryState.TreasuryState	line:49	language:Haskell
+mkScript	src/PlcErrors.hs	/^mkScript :: TreasuryParams -> TypedValidator TreasuryScript$/;"	ft	signature:(TreasuryParams -> TypedValidator TreasuryScript)	line:91	language:Haskell
+mkTreasury	src/PlcErrors.hs	/^mkTreasury :: TreasuryParams -> Treasury$/;"	ft	signature:(TreasuryParams -> Treasury)	line:99	language:Haskell
+tokenName	src/PlcErrors.hs	/^  { tokenName :: !TokenName$/;"	c_a	cons:TreasuryParams.TreasuryParams	line:71	language:Haskell
+tp	src/PlcErrors.hs	/^tp :: TreasuryParams$/;"	ft	signature:(TreasuryParams)	line:105	language:Haskell
+treasury	src/PlcErrors.hs	/^treasury :: Treasury$/;"	ft	signature:(Treasury)	line:111	language:Haskell
+treasuryScript	src/PlcErrors.hs	/^  { treasuryScript :: TypedValidator TreasuryScript$/;"	c_a	cons:Treasury.Treasury	line:75	language:Haskell
+ts	src/PlcErrors.hs	/^  ts == ts' =$/;"	fi	instance:Eq TreasuryState	line:54	language:Haskell
+validator	src/PlcErrors.hs	/^validator ::$/;"	ft	signature:(TreasuryParams -> TreasuryState -> TreasuryRedeemer -> ScriptContext -> Bool)	line:80	language:Haskell
